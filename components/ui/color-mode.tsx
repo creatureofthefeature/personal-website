@@ -83,10 +83,10 @@ export const LightMode = React.forwardRef<HTMLSpanElement, SpanProps>(
   function LightMode(props, ref) {
     return (
       <Span
-        //color="fg"
+        color="fg"
         display="contents"
         className="chakra-theme light"
-        colorPalette="purple"
+        colorPalette="gray"
         colorScheme="light"
         ref={ref}
         {...props}
@@ -99,10 +99,10 @@ export const DarkMode = React.forwardRef<HTMLSpanElement, SpanProps>(
   function DarkMode(props, ref) {
     return (
       <Span
-        //color="fg"
+        color="fg"
         display="contents"
         className="chakra-theme dark"
-        colorPalette="purple"
+        colorPalette="gray"
         colorScheme="dark"
         ref={ref}
         {...props}
