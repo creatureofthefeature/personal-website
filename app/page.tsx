@@ -9,7 +9,7 @@ const mPlusRounded1c = M_PLUS_Rounded_1c({
 
 export default function Home() {
   return (
-    <Container>
+    <Container maxW="full" px={0}>
 
       <Navbar></Navbar>
 

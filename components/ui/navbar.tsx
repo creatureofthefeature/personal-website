@@ -17,8 +17,9 @@ const Navbar = () => {
             gap={{ base: 8, lg: 16 }}
             px={{ base: 6, lg: 12 }}
             py={3}
-            maxW={{ base: "full", xl: "1440px" }}
-            mx="auto"
+            //maxW={{ base: "full", xl: "1440px" }}
+            //mx="auto"
+            //overflow="hidden"
         >
             <Image 
             asChild
@@ -27,10 +28,11 @@ const Navbar = () => {
             >
                 {/* Background Image */}
                 <NextImage
-                src="/personal-website/PaperCranes.jpg" // Place your image in /public folder
+                //src="/personal-website/PaperCranes.jpg"
+                src="/PaperCranes.jpg" // Place your image in /public folder
                 alt="Background"
                 fill
-                style={{ objectFit: 'none', objectPosition: 'top', zIndex: -1 }}
+                style={{ objectFit: 'cover', objectPosition: 'top', zIndex: -1 }}
                 priority
                 />
             </Image>
@@ -47,6 +49,7 @@ const Navbar = () => {
                 <MobileDrawer />
             </Box>
         </Flex>
+        
     )
 }
 
