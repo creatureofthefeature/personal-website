@@ -2,8 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: '/personal-website',
-  assetPrefix: '/personal-website/',
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
   experimental: {
     optimizePackageImports: ["@chakra-ui/react"],
   },
