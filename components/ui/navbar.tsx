@@ -27,7 +27,7 @@ const Navbar = () => {
             >
                 {/* Background Image */}
                 <NextImage
-                src="${basePath}/PaperCranes.jpg" // Place your image in /public folder
+                src="personal-website/PaperCranes.jpg" // Place your image in /public folder
                 alt="Background"
                 fill
                 style={{ objectFit: 'none', objectPosition: 'top', zIndex: -1 }}
