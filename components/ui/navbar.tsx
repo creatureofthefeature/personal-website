@@ -13,8 +13,8 @@ export const NavImage = () => {
         position="relative"
         >
         <Image
-        src="/personal-website/PaperCranes.jpg"
-        //src="/PaperCranes.jpg" 
+        // src="/personal-website/PaperCranes.jpg"
+        src="/PaperCranes.jpg" 
         alt="Background image"
         aspectRatio={10/1.5}
         width="100%"
