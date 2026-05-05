@@ -33,98 +33,98 @@ const Portfolio = () => {
             <SimpleGrid columns={3} gap="40px">
               <Box height="100" >
                 <Image
-                  src="/personal-website/Moribund.jpg"
+                  src="/Moribund.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/ToSink.jpg"
+                  src="/ToSink.jpg"
                   alt="Art"
                 />
               </Box>
               
               <Box height="100" >
                 <Image
-                  src="/personal-website/ToFloat.jpg"
+                  src="/ToFloat.jpg"
                   alt="Art"
                 />
               </Box>
               
               <Box height="100" >
                 <Image
-                  src="/personal-website/GreenMonochrome.jpg"
+                  src="/GreenMonochrome.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/TouchingTheDryWorld.jpg"
+                  src="/TouchingTheDryWorld.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/StillLifeOil.jpg"
+                  src="/StillLifeOil.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/eldwretch sona card.jpg"
+                  src="/eldwretch sona card.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/ball_pit_background.jpg"
+                  src="/ball_pit_background.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/storm.JPG"
+                  src="/storm.JPG"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/DucksInTheHarbor.jpg"
+                  src="/DucksInTheHarbor.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/PicnicTree.jpg"
+                  src="/PicnicTree.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/RosesAndGardenSpiders.jpg"
+                  src="/RosesAndGardenSpiders.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/ClothSketch.jpg"
+                  src="/ClothSketch.jpg"
                   alt="Art"
                 />
               </Box>
 
               <Box height="100" >
                 <Image
-                  src="/personal-website/TextureStillLifeCharcoalGraphite.jpg"
+                  src="/TextureStillLifeCharcoalGraphite.jpg"
                   alt="Art"
                 />
               </Box>

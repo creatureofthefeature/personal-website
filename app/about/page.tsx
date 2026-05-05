@@ -59,7 +59,7 @@ export default function Home() {
                     overflow="hidden"
                   >
                     <Image
-                      src="/personal-website/HenryInkwellPhoto.jpg"
+                      src="/HenryInkwellPhoto.jpg"
                       alt="Profile image"
                       width="100"
                       height="100"

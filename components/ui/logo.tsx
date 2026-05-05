@@ -9,8 +9,8 @@ const Logo = () => {
   return (
     <Box bg="whiteAlpha.500" p={1} borderRadius={"sm"} style={{ zIndex: 1 }}>
       <HStack >
-        <Image src="/personal-website/creatureLogo.svg" alt="Logo" height="40px" />
-        {/* <Image src="/creatureLogo.svg" alt="Logo" height="40px" /> */}
+        {/* <Image src="/personal-website/creatureLogo.svg" alt="Logo" height="40px" /> */}
+        <Image src="/creatureLogo.svg" alt="Logo" height="40px" />
         <Text fontSize="lg" fontWeight="bold" color="black" className={`text-center ${mPlusRounded1c.className}`}>
           Henry Inkwell
         </Text>

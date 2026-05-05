@@ -9,7 +9,7 @@ const Footer = () => {
     width="100%"
     >
       <Image
-      src="/personal-website/FooterImage.png" 
+      src="/FooterImage.png" 
       alt="Footer Background"
       style={{ objectFit: 'cover', objectPosition: 'bottom', zIndex: 0 }}
       width="100%"

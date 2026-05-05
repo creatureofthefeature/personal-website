@@ -59,7 +59,7 @@ export default function Home() {
                     overflow="hidden"
                   >
                     <Image
-                      src="/personal-website/HenryInkwellPhoto.jpg"
+                      src="/HenryInkwellPhoto.jpg"
                       alt="Profile image"
                       width="100"
                       height="100"
@@ -81,7 +81,7 @@ export default function Home() {
             h="300px"
             >
                 <Image
-                    src="/personal-website/WalkCycle.gif"
+                    src="/WalkCycle.gif"
                     alt="walk cycle gif"
                     width="100"
                     height="100"
