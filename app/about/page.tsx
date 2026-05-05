@@ -75,7 +75,7 @@ export default function Home() {
           <Heading textDecoration="underline" size="xl" className={`text-center ${mPlusRounded1c.className}`}>
             About
           </Heading>
-          <p>I am currently in the process of shifting my career to encompass both my artistic and
+          <p>I am a multimedia creator currently in the process of shifting my career to encompass both my artistic and
 technological skills. My goal is to pursue a career in Multimedia creating games, films, and live 
 experiences. To achieve this, my plan is to study Media Technology and Design, work, and immigrate 
 to Austria. So far, I have graduated cum laude with my BSc in Computer Science from 
