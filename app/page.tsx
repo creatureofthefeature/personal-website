@@ -17,11 +17,11 @@ export default function Home() {
           <NavImage></NavImage>
         </Box>
 
-        <Box h="20">
+        <Box >
           <Navbar></Navbar>
         </Box>
 
-        <Box h="20" bgSize="100vh" bgRepeat="no-repeat"> 
+        <Box px="4" py="4" bgSize="100vh" bgRepeat="no-repeat"> 
           <Box>
             <Center>
               <Box 
@@ -33,7 +33,7 @@ export default function Home() {
             </Center>
           </Box>
 
-          <Box h="10">
+          <Box >
             <Center>
               <Box display={{md:'flex'}} style={{ zIndex: 1 }}>
                 <Box flexGrow={1}>
@@ -71,9 +71,7 @@ export default function Home() {
           </Box>
         </Box>
 
-        <Box h="13vh"></Box>
-
-        <Box 
+        <Box px="1" py="1"
             borderColor="teal.700" 
             borderWidth={2}
             borderStyle="solid"

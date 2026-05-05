@@ -17,13 +17,11 @@ const Portfolio = () => {
           <NavImage></NavImage>
         </Box>
 
-        <Box h="20">
+        <Box >
           <Navbar></Navbar>
         </Box>
 
-        <Box h="10vh"></Box>
-
-        <Box > 
+        <Box py="4" style={{ zIndex: 0}}> 
           <Flex
               as="nav"
               align="center"
