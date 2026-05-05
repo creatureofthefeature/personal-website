@@ -1,11 +1,5 @@
-import {
-  useDisclosure,
-  Drawer,
-  Button,
-  Portal,
-  CloseButton,
-  Icon,
-} from "@chakra-ui/react";
+import { useDisclosure,  Drawer,  Button,  Portal,  CloseButton, Icon } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { LuMenu } from "react-icons/lu";
 import Logo from "./logo";
 import MenuLinks from "./menuLinks";
@@ -32,10 +26,12 @@ const MobileDrawer = () => {
               </Drawer.Title>
             </Drawer.Header>
             <Drawer.Body>
-              <MenuLinks isMobile />
+              <Box display={{ base: "block", md: "none" }} bg="whiteAlpha.500" p={1} borderRadius={"sm"} style={{ zIndex: 1 }}>
+                <MenuLinks isMobile />
+              </Box>
             </Drawer.Body>
             <Drawer.CloseTrigger asChild>
-              <CloseButton size="md" />
+              <CloseButton size="md" p={5}/>
             </Drawer.CloseTrigger>
           </Drawer.Content>
         </Drawer.Positioner>

@@ -1,20 +1,23 @@
 import { createSystem, defaultConfig, defineConfig } from "@chakra-ui/react"
-import { M_PLUS_Rounded_1c } from "next/font/google";
-import { useColorModeValue } from "../components/ui/color-mode";
 
 const customConfig = defineConfig({
   globalCss: {
-    theme: {
+    body: {
+      bg: "bg.page", // Reference a semantic token
+      color: "fg.default",
     },
-
-
   },
+   theme: {
+    // Use semantic tokens to handle light and dark mode colors
+    semanticTokens: {
+      colors: {
+        "bg.page": {
+          value: { _light: "#f5e2b9", _dark: "#14141e" }
+        }
+      }
+    }
+  }
 })
-
-
-// export const mPlusRounded1c = M_PLUS_Rounded_1c({ 
-//   weight: "700"
-// });
 
 const system = createSystem(defaultConfig, customConfig)
 

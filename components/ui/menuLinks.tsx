@@ -1,12 +1,14 @@
 import { HStack, VStack, Link, Button, Text } from "@chakra-ui/react";
 import { ColorModeButton } from "./color-mode"
 import { M_PLUS_Rounded_1c } from "next/font/google";
+//import { Link } from "react-router-dom";
 
 const links = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Services", href: "#services" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "home" }, 
+  { name: "About", href: "about" }, 
+  { name: "Portfolio", href: "portfolio" },
+  { name: "Links", href: "https://eldwretch.carrd.co/" }, 
+  { name: "Contact", href: "mailto:eldwretch@yahoo.com" }, 
 ];
 
 const mPlusRounded1c = M_PLUS_Rounded_1c({ 
@@ -17,7 +19,7 @@ const MenuLinks = ({ isMobile = false }) => {
   const LinkComponent = isMobile ? VStack : HStack;
 
   return (
-    <LinkComponent gap={isMobile ? 4 : 8} align="center">
+    <LinkComponent gap={isMobile ? 4 : 8} align="center"> 
       
       <ColorModeButton />
 
@@ -26,7 +28,7 @@ const MenuLinks = ({ isMobile = false }) => {
           key={link.name}
           href={link.href}
           fontWeight="medium"
-          colorPalette="black"
+          color="black"
           _hover={{
             colorPalette: "orange",
             textDecoration: "underline",
@@ -37,7 +39,8 @@ const MenuLinks = ({ isMobile = false }) => {
         </Link>
       ))}
 
-      <Button
+      <Link href="https://ko-fi.com/eldwretch" target="_blank">
+        <Button
         bg="orange.400"
         variant="solid"
         size="sm"
@@ -49,12 +52,13 @@ const MenuLinks = ({ isMobile = false }) => {
         }}
         transition="all 0.2s ease"
         className={`text-center ${mPlusRounded1c.className}`}
-      >
-        <Text color="black">
-           Like what you see? Support my work!
-        </Text>
-      
-      </Button>
+        >
+          <Text color="black">
+            Like what you see? Support my work!
+          </Text>
+        </Button>
+      </Link>
+
     </LinkComponent>
   );
 };
